@@ -12,11 +12,11 @@
     flex: 1;
     width: 50%;
     background-color: rgb(62, 154, 234);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px ;
     border-color: rgb(62, 154, 234);
     border-style: solid;
-    border-top-width: 250px;
+    border-top-width: 125px;
     border-bottom-width: 100px;
     margin: 3% auto;
 }
@@ -24,23 +24,25 @@
 #register-form {
     font-size: 20px;
     flex: 1;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 30px;
     width: 50%;
     margin: 3% auto;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(96, 95, 95);
+    border-color: rgb(116, 116, 116);
     align-content: center;
+    color: black;
 }
 
 .form-input {
-    display: block;
+    background-color: #c3c2c2;
     width: 80%;
     padding: 10px;
     font-size: 20px;
     margin-bottom: 4%;
     border: 2px solid #5c5c5c;
+    border-radius: 10px;
 }
 
 .custom-border {
